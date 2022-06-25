@@ -1,0 +1,15 @@
+.app {
+  display: grid;
+  justify-items: center;
+}
+
+.container {
+  width: 60%;
+  padding: 24px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
